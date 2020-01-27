@@ -11,8 +11,7 @@ class App extends Component {
     }
 
     sendRequest() {
-        //TODO Replace string with env var process.env.REACT_APP_API_URI
-        get("http://localhost:8080" + '/init', (response) => {
+        get(process.env.API_URI + '/init', (response) => {
             console.log("response", response);
         });
     }
