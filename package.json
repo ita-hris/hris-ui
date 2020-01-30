@@ -22,6 +22,8 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
+    "dotenv-webpack": "^1.7.0",
+    "jquery": "^3.4.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
