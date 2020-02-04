@@ -28,5 +28,8 @@ module.exports = {
       template: "./src/index.html"
     }),
     new Dotenv()
-  ]
+  ],
+  devServer: {
+    port: 9000
+  }
 };

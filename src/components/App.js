@@ -11,7 +11,7 @@ class App extends Component {
     }
 
     sendRequest() {
-        get(process.env.API_URI + '/init', (response) => {
+        get(process.env.API_URI + '/benefits/init', (response) => {
             console.log("response", response);
         });
     }
